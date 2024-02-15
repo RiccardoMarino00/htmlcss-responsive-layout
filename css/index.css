@@ -88,24 +88,7 @@ header{
     display: none;
 }
 
-                 /* RESPONSIVE HEADER */
-
-@media (min-width: 0px) and (max-width: 800px) {
-
-    .bars{
-        display: inline-block;
-    }
-
-    .list-header{
-        display: none;
-    }
-
-    .button-header{
-        display: none;
-    }
-}
-
-           /* END RESPONSIVE HEADER */
+ 
 
 
            /* MAIN */
@@ -182,4 +165,106 @@ header{
 
 .fa-apple{
     padding-right: 5px;
+}
+
+                                /* INIZIO SECONDA SEZIONE */
+
+.strategic{
+    background-color: #9792e4;
+}
+
+.card{
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.col-6{
+    width: 50%;
+    text-align: start;
+    color: white;
+}
+
+.col-6-card{
+    width: 50%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.img-planning{
+    width: 60%;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.title-strategic{
+    margin-bottom: 20px;
+
+}
+
+.button-arrow{
+    background-color: #9792e4;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.p-card-col-6{
+    margin-bottom: 15px;
+}
+                /* RESPONSIVE HEADER */
+
+                @media (min-width: 0px) and (max-width: 758px) {
+
+                    .bars{
+                        display: inline-block;
+                    }
+                
+                    .list-header{
+                        display: none;
+                    }
+                
+                    .button-header{
+                        display: none;
+                    }
+                }
+                
+                /* END RESPONSIVE HEADER */
+
+
+                /* RESPONSIVE HERO */
+
+
+@media (min-width: 0px) and (max-width: 566px) {
+
+    .col-8{
+        width: 100%;
+    }
+
+    .col-4{
+        width: 100%;
+    }
+}
+
+                /* END RESPONSIVE HERO */
+
+
+                /* RESPONSIVE STRATEGIC PLANNING */
+
+@media (min-width: 0px) and (max-width: 566px) {
+
+    .col-6{
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-6-card{
+        width: 100%;
+        justify-content: center;
+    }
+
 }
