@@ -219,7 +219,61 @@ header{
 .p-card-col-6{
     margin-bottom: 15px;
 }
- 
+
+                   /* INIZIO TERZA SEZIONE */
+
+.col-testimonials{
+    width: 100%;
+    background-color: #9792e4;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 35px;
+    color: white;
+}
+
+.row-testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+.img-testimonials{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 140px;
+    margin-top: 15px;
+
+}
+
+.p-testimonials{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.h-testimonials{
+    margin-top: 15px;
+}
+
+.start-testimonials{
+    text-align: center;
+    padding: 20px;
+}
+
+.content-start-testimonials{
+    padding: 15px;
+    line-height: 30px;
+}
+ /* .row-testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+
+/* .col-testimonials{
+    width: 100%;
+}
+  */
 
                                 /* RESPONSIVE */
               
@@ -232,28 +286,7 @@ header{
     .col-4{
         width: calc(4 * 100% / 12 - 20px);
     }
-
-    .bars{
-        display: none;
-    }
-    
-    
-    .list-header{
-        color: white;
-        display: inline-block;
-    }
-    
-
-    .button-header{
-        background-color: white;
-        line-height: 30px;
-        border-radius: 999px;
-        padding: 2px;
-        width: 90px;
-        font-size: 15px;
-        text-align: center;
-        display: inline-block;
-    }
+ 
 
     .col-6{
         width: 50%;
@@ -266,5 +299,44 @@ header{
         width: 50%;
         
     }
+
+    .col-testimonials{
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+
+    .col-testimonial{
+        flex-grow: 1;
+    }
+
+    .text-testimonial{
+        margin-left: 20px;
+        color: white;
+    }
+
 }
 
+
+@media (min-width: 758px) {
+
+    .bars{
+        display: none;
+    }
+
+    .list-header{
+        color: white;
+        display: inline-block;
+    }
+
+    .button-header{
+        background-color: white;
+        line-height: 30px;
+        border-radius: 999px;
+        padding: 2px;
+        width: 90px;
+        font-size: 15px;
+        text-align: center;
+        display: inline-block;
+    }
+}
