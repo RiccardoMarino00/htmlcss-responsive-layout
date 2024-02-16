@@ -337,7 +337,7 @@ header{
 
                     /* SECTION POLICY */
 
- .policy{
+ .center{
     text-align: center;
  }    
  
@@ -354,6 +354,12 @@ header{
  .underline{
     text-decoration: underline;
  }
+
+                /* FOOTER */
+
+.footer-p{
+    padding-top: 20px;
+}
                                 /* RESPONSIVE */
               
 @media (min-width: 566px)  {
