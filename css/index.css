@@ -328,6 +328,18 @@ header{
     margin: 20px;
 }
 
+.div-quotation{
+    position: relative;
+}
+
+.quotation{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 30px;
+    color: #9792e4;
+}
+
 .button-linkedin{
     background-color: #9792e4;
     color: white;
